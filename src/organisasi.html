@@ -10,132 +10,113 @@
 <body>
  <!-- nav start -->
  <div class="w-full bg-gray-800  py-5 sticky top-0 z-10">
-  <div class="container mx-auto px-2 md:px-0">
-    <div class="flex flex-wrap justify-between">
-      <!-- Bagian Logo -->
-      <div class="flex flex-shrink-0 items-center hover:cursor-pointer">
-        <a
-          href="#Beranda"
-          class="font-bold text-blue-600 text-2xl uppercase"
-        >
-          MA <span class="text-white">Al-Manar</span>
-        </a>
-      </div>
-
-      <!-- Bagian menu navbar -->
-      <div id="navbarMenu" class="hidden md:block">
-        <ul
-          class=" bg-gray-800 px-4 md:px-0 space-y-2 md:space-y-0 absolute top-full  left-0 right-0 md:sticky md:flex md:space-x-10 text-lg font-semibold text-white capitalize z-50"
-        >
-          <li>
-            <a href="#Beranda" class="hover:text-blue-600 text-blue-600"
-              >Beranda</a
-            >
-          </li>
-
-          <li class="relative inline-block text-left">
-            <div>
-              <button
-                type="button"
-                id="menu-button"
-                class="inline-flex items-center justify-center gap-x-1.5 text-lg font-semibold text-white hover:text-blue-600"
-                aria-expanded="false"
-                aria-haspopup="true"
-              >
-                Tentang
-                <svg
-                  class="-mr-1 h-5 w-5 text-gray-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </button>
+    <div class="container mx-auto px-2 md:px-0">
+        <div class="flex flex-wrap justify-between">
+            <!-- Bagian Logo -->
+            <div class="flex flex-shrink-0 items-center hover:cursor-pointer">
+                <a
+                    href="#Beranda"
+                    class="font-bold text-blue-600 text-2xl uppercase">
+                    MA <span class="text-white">Al-Manar</span>
+                </a>
             </div>
 
-            <div
-              id="dropdown-menu"
-              class="absolute md:right-0 left-13 z-10 mt-2 w-56 origin-top-right rounded-md bg-gray-800 shadow-lg ring-1 ring-black ring-opacity-5 hidden"
-              role="menu"
-              aria-orientation="vertical"
-              aria-labelledby="menu-button"
-              tabindex="-1"
-            >
-              <div class="py-1" role="none">
-                <a
-                  href="../index.html#Sambutan"
-                  class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
-                  role="menuitem"
-                  tabindex="-1"
-                  >Sambutan Kepala Sekolah</a
-                >
+            <div id="navbarMenu" class="hidden md:block">
+                <ul
+                    class=" bg-gray-800 px-4 md:px-0 space-y-2 md:space-y-0 absolute top-full  left-0 right-0 md:sticky md:flex md:space-x-10 text-lg font-semibold text-white capitalize z-50">
+                    <li>
+                        <a href="#Beranda" class="hover:text-blue-600 text-blue-600">Beranda</a>
+                    </li>
 
-                <a
-                  href="visi-misi.html"
-                  class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
-                  role="menuitem"
-                  tabindex="-1"
-                  >Visi Misi</a
-                >
+                    <li class="relative inline-block text-left">
+                        <div>
+                            <button
+                                type="button"
+                                id="menu-button"
+                                class="inline-flex items-center justify-center gap-x-1.5 text-lg font-semibold text-white hover:text-blue-600"
+                                aria-expanded="false"
+                                aria-haspopup="true">
+                                Tentang
+                                <svg
+                                    class="-mr-1 h-5 w-5 text-gray-400"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    aria-hidden="true">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
 
-                <a
-                  href="sejarah.html"
-                  class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
-                  role="menuitem"
-                  tabindex="-1"
-                  >Sejarah MA AL-MANAR</a
-                >
+                        <div
+                            id="dropdown-menu"
+                            class="absolute md:right-0 left-13 z-10 mt-2 w-56 origin-top-right rounded-md bg-gray-800 shadow-lg ring-1 ring-black ring-opacity-5 hidden"
+                            role="menu"
+                            aria-orientation="vertical"
+                            aria-labelledby="menu-button"
+                            tabindex="-1">
+                            <div class="py-1" role="none">
+                                <a
+                                    href="../index.html#Sambutan"
+                                    class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
+                                    role="menuitem"
+                                    tabindex="-1">Sambutan Kepala Sekolah</a>
 
-                <a
-                  href="organisasi.html"
-                  class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
-                  role="menuitem"
-                  tabindex="-1"
-                  >Struktur Organisasi</a
-                >
-              </div>
+                                <a
+                                    href="visi-misi.html"
+                                    class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
+                                    role="menuitem"
+                                    tabindex="-1">Visi Misi</a>
+
+                                <a
+                                    href="sejarah.html"
+                                    class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
+                                    role="menuitem"
+                                    tabindex="-1">Sejarah MA AL-MANAR</a>
+
+                                <a
+                                    href="organisasi.html"
+                                    class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
+                                    role="menuitem"
+                                    tabindex="-1">Struktur Organisasi</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="../index.html#Eskul" class="hover:text-blue-600">Eskul</a>
+                    </li>
+
+                    <li>
+                        <a href="../index.html#Galeri" class="hover:text-blue-600">Galeri</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#Berita" class="hover:text-blue-600">Berita</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#Contact" class="hover:text-blue-600">Contact</a>
+                    </li>
+                </ul>
             </div>
-          </li>
+            <div class="pt-1 hidden md:block">
+                <a
+                    href=""
+                    class="py-2 px-5 bg-blue-600 border border-blue-600 text-white font-semibold rounded-full hover:bg-transparent hover:text-white transition-all duration-500">Login</a>
+            </div>
 
-          <li>
-            <a href="../index.html#Eskul" class="hover:text-blue-600">Eskul</a>
-          </li>
-
-          <li>
-            <a href="../index.html#Galeri" class="hover:text-blue-600">Galeri</a>
-          </li>
-          <li>
-            <a href="../index.html#Berita" class="hover:text-blue-600">Berita</a>
-          </li>
-          <li>
-            <a href="../index.html#Contact" class="hover:text-blue-600">Contact</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="pt-1 hidden md:block">
-        <a
-          href=""
-          class="py-2 px-5 bg-blue-600 border border-blue-600 text-white font-semibold rounded-full hover:bg-transparent hover:text-white transition-all duration-500"
-          >Login</a
-        >
-      </div>
-
-      <div class="md:hidden pt-2 mr-2">
-        <button id="burgerMenu" class="space-y-2">
-            <span class="bg-white w-[30px] h-[2px] block"></span>
-            <span class="bg-white w-[30px] h-[2px] block"></span>
-            <span class="bg-white w-[30px] h-[2px] block"></span>
-        </button>
+            <div class="md:hidden pt-2 mr-2">
+                <button id="burgerMenu" class="space-y-2">
+                    <span class="bg-white w-[30px] h-[2px] block"></span>
+                    <span class="bg-white w-[30px] h-[2px] block"></span>
+                    <span class="bg-white w-[30px] h-[2px] block"></span>
+                </button>
+            </div>
+        </div>
     </div>
-      </div>
-    </div>
-  </div>
+</div>
+
   <!--bagian Akhir navbar-->
 
     <!-- Bagian organisasi Sekolah-->
