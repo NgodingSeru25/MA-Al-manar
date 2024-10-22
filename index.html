@@ -728,12 +728,15 @@
               ></textarea>
             </div>
             <div class="w-full px-4">
-              <button
-                class="w-full py-3 bg-blue-600 border border-blue-600 text-white font-semibold rounded-full hover:bg-transparent hover:text-blue-600 transition-all duration-500"
-              >
-                Kirim
-              </button>
-            </div>
+  <button
+    id="submit-button"
+    class="w-full py-3 bg-blue-600 border border-blue-600 text-white font-semibold rounded-full hover:bg-transparent hover:text-blue-600 transition-all duration-500"
+  >
+    Kirim
+  </button>
+  <div id="message" class="mt-2 text-red-600 hidden"></div>
+</div>
+
           </div>
         </form>
       </div>
@@ -845,6 +848,15 @@
         });
       });
     </script>
+
+
+    document.getElementById('submit-button').addEventListener('click', function(event) {
+  event.preventDefault(); // Mencegah aksi default
+  const messageDiv = document.getElementById('message');
+  messageDiv.textContent = 'Sistem belum tersedia'; // Menampilkan pesan
+  messageDiv.classList.remove('hidden'); // Menghilangkan kelas hidden agar pesan muncul
+});
+
 
 <!-- script burer navbar-->
     <script src="dist/main.js"></script>
