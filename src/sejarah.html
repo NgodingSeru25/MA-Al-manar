@@ -8,123 +8,145 @@
 
   <body>
    <!-- nav start -->
-   <!-- nav start -->
- <div class="w-full bg-gray-800  py-5 sticky top-0 z-10">
-     <div class="container mx-auto px-2 md:px-0">
-         <div class="flex flex-wrap justify-between">
-             <!-- Bagian Logo -->
-             <div class="flex flex-shrink-0 items-center hover:cursor-pointer">
-                 <a
-                     href="../index.html#Beranda"
-                     class="font-bold text-blue-600 text-2xl uppercase">
-                     MA <span class="text-white">Al-Manar</span>
-                 </a>
-             </div>
+   <div class="w-full bg-gray-800  py-5 sticky top-0 z-10">
+    <div class="container mx-auto px-2 md:px-0">
+      <div class="flex flex-wrap justify-between">
+        <!-- Bagian Logo -->
+        <div class="flex flex-shrink-0 items-center hover:cursor-pointer">
+          <a
+            href="index.html#Beranda"
+            class="font-bold text-blue-600 text-2xl uppercase"
+          >
+            MA <span class="text-white">Al-Manar</span>
+          </a>
+        </div>
 
-             <div id="navbarMenu" class="hidden md:block">
-                 <ul
-                     class=" bg-gray-800 px-4 md:px-0 space-y-2 md:space-y-0 absolute top-full  left-0 right-0 md:sticky md:flex md:space-x-10 text-lg font-semibold text-white capitalize z-50">
-                     <li>
-                         <a href="../index.html#Beranda" class="hover:text-blue-600 text-blue-600">Beranda</a>
-                     </li>
+        <!-- Bagian menu navbar -->
+          <!-- Bagian menu navbar -->
+          <div id="navbarMenu" class="hidden md:block">
+            <ul
+              class=" bg-gray-800 px-4 md:px-0 space-y-2 md:space-y-0 absolute top-full  left-0 right-0 md:sticky md:flex md:space-x-10 text-lg font-semibold text-white capitalize z-50"
+            >
+              <li>
+                <a href="#Beranda" class="hover:text-blue-600 text-blue-600"
+                  >Beranda</a
+                >
+              </li>
 
-                     <li class="relative inline-block text-left">
-                         <div>
-                             <button
-                                 type="button"
-                                 id="menu-button"
-                                 class="inline-flex items-center justify-center gap-x-1.5 text-lg font-semibold text-white hover:text-blue-600"
-                                 aria-expanded="false"
-                                 aria-haspopup="true">
-                                 Profil
-                                 <svg
-                                     class="-mr-1 h-5 w-5 text-gray-400"
-                                     viewBox="0 0 20 20"
-                                     fill="currentColor"
-                                     aria-hidden="true">
-                                     <path
-                                         fill-rule="evenodd"
-                                         d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
-                                         clip-rule="evenodd" />
-                                 </svg>
-                             </button>
-                         </div>
+              <li class="relative inline-block text-left">
+                <div>
+                  <button
+                    type="button"
+                    id="menu-button"
+                    class="inline-flex items-center justify-center gap-x-1.5 text-lg font-semibold text-white hover:text-blue-600"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                  >
+                    Profil
+                    <svg
+                      class="-mr-1 h-5 w-5 text-gray-400"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </div>
 
-                         <div
-                             id="dropdown-menu"
-                             class="absolute md:right-0 left-13 z-10 mt-2 w-56 origin-top-right rounded-md bg-gray-800 shadow-lg ring-1 ring-black ring-opacity-5 hidden"
-                             role="menu"
-                             aria-orientation="vertical"
-                             aria-labelledby="menu-button"
-                             tabindex="-1">
-                             <div class="py-1" role="none">
-                                 <a
-                                     href="../index.html#Sambutan"
-                                     class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
-                                     role="menuitem"
-                                     tabindex="-1">Sambutan Kepala Sekolah</a>
+                <div
+                  id="dropdown-menu"
+                  class="absolute md:right-0 left-13 z-10 mt-2 w-56 origin-top-right rounded-md bg-gray-800 shadow-lg ring-1 ring-black ring-opacity-5 hidden"
+                  role="menu"
+                  aria-orientation="vertical"
+                  aria-labelledby="menu-button"
+                  tabindex="-1"
+                >
+                  <div class="py-1" role="none">
+                    <a
+                      href="#Sambutan"
+                      class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
+                      role="menuitem"
+                      tabindex="-1"
+                      >Sambutan Kepala Sekolah</a
+                    >
 
-                                 <a
-                                     href="visi-misi.html"
-                                     class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
-                                     role="menuitem"
-                                     tabindex="-1">Visi Misi</a>
+                    <a
+                      href="visi-misi.html"
+                      class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
+                      role="menuitem"
+                      tabindex="-1"
+                      >Visi Misi</a
+                    >
 
-                                 <a
-                                     href="sejarah.html"
-                                     class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
-                                     role="menuitem"
-                                     tabindex="-1">Sejarah MA AL-MANAR</a>
+                    <a
+                      href="sejarah.html"
+                      class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
+                      role="menuitem"
+                      tabindex="-1"
+                      >Sejarah MA AL-MANAR</a
+                    >
 
-                                 <a
-                                     href="organisasi.html"
-                                     class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
-                                     role="menuitem"
-                                     tabindex="-1">Struktur Organisasi</a>
-                                 <a
-                                     href="#Kepsek"
-                                     class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
-                                     role="menuitem"
-                                     tabindex="-1">Kepala Madrasah</a>
-                             </div>
-                         </div>
-                     </li>
+                    <a
+                      href="organisasi.html"
+                      class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
+                      role="menuitem"
+                      tabindex="-1"
+                      >Struktur Organisasi</a
+                    >
 
-                     <li>
-                         <a href="../index.html#Eskul" class="hover:text-blue-600">Eskul</a>
-                     </li>
+                    <a
+                    href="kepsek.html"
+                    class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dropdown-item"
+                    role="menuitem"
+                    tabindex="-1"
+                    >Data Tendik</a
+                  >
+                  </div>
+                </div>
+              </li>
 
-                     <li>
-                         <a href="../index.html#Galeri" class="hover:text-blue-600">Galeri</a>
-                     </li>
-                     <li>
-                         <a href="../index.html#Berita" class="hover:text-blue-600">Berita</a>
-                     </li>
-                     <li>
-                         <a href="../index.html#Contact" class="hover:text-blue-600">Contact</a>
-                     </li>
-                 </ul>
-             </div>
-             <div class="pt-1 hidden md:block">
-                 <a
-                     href=""
-                     class="py-2 px-5 bg-blue-600 border border-blue-600 text-white font-semibold rounded-full hover:bg-transparent hover:text-white transition-all duration-500">Login</a>
-             </div>
+              <li>
+                <a href="#Eskul" class="hover:text-blue-600">Eskul</a>
+              </li>
 
-             <div class="md:hidden pt-2 mr-2">
-                 <button id="burgerMenu" class="space-y-2">
-                     <span class="bg-white w-[30px] h-[2px] block"></span>
-                     <span class="bg-white w-[30px] h-[2px] block"></span>
-                     <span class="bg-white w-[30px] h-[2px] block"></span>
-                 </button>
-             </div>
-         </div>
-     </div>
- </div>
- <!--bagian Akhir navbar-->
+              <li>
+                <a href="#Galeri" class="hover:text-blue-600">Galeri</a>
+              </li>
+              <li>
+                <a href="#Berita" class="hover:text-blue-600">Berita</a>
+              </li>
+              <li>
+                <a href="#Contact" class="hover:text-blue-600">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+        <div class="pt-1 hidden md:block">
+          <a
+            href=""
+            class="py-2 px-5 bg-blue-600 border border-blue-600 text-white font-semibold rounded-full hover:bg-transparent hover:text-white transition-all duration-500"
+            >Login</a
+          >
+        </div>
+
+        <div class="md:hidden pt-2 mr-2">
+          <button id="burgerMenu" class="space-y-2">
+              <span class="bg-white w-[30px] h-[2px] block"></span>
+              <span class="bg-white w-[30px] h-[2px] block"></span>
+              <span class="bg-white w-[30px] h-[2px] block"></span>
+          </button>
+      </div>
+        </div>
+      </div>
+    </div>
     <!--bagian Akhir navbar-->
 
-     <!-- Bagian sejarah Sekolah-->
+    <!-- Bagian sejarah Sekolah-->
     <div class="w-full bg-white-600 py-20 mb-20">
       <div class="container mx-auto">
         <div class="max-w-md mb-16 text-center mx-auto">
@@ -138,7 +160,7 @@
           <div class="md:mx-5 w-[50%] mt-10">
             <div class="w-full md:h-[40] overflow-hidden rounded-md">
               <img
-                src="../public/img/Gedung.jpg"
+                src="../public/img/pramuka.jpg"
                 class="w-full h-72 object-cover hover:scale-125 transition-all duration-500"
               />
             </div>
@@ -147,12 +169,10 @@
           <!-- Sejarah ny-->
           <div class="w-[50%] mt-10 px-4 md:w-full ">
             <p class="w-full text-slate-600 font-normal leading-loose capitalize text-justify">
-              Perguruan Islam Pesantren Al-Manar sesuai dengan namanya secara harfiah adalah “tempat memantul cahaya” karena diniatkan agar dapat memantulkan sinar Islam bagi kehidupan umat Islam di Indonesia. Diresmikan oleh Menteri Agama RI pada tanggal 26 Oktober 1999 bertepatan dengan 16 Rajab 1429 H. Kampus Perguruan Islam-Pesantren Al-Manar berlokasi di Desa Cibeuteung Udik Kecamatan Ciseeng Kabupaten Bogor, memiliki luas lahan 3 Ha.
-              Sejak berdiri tahun 1999 Sampai sekarang memiliki jenis dan jenjang pendidikan yang terdiri dari TK Islam, Madrasah Ibtidaiyah (MI), Madrasah Tsanawiyah (MTs), Madrasah Aliyah (MA) dan Sekolah Menengah Kejuruan (SMK) jurusan Marketing/Penjualan. MTs dan MA sampai tahun 2008 sudah meluluskan peserta didiknya 6 (enam) angkatan dengan angka kelulusan 100%. Begitu juga SMK yang sejak berdiri tahun 2000 mempunyai angka kelulusan 100%. Sedangkan MI Al-Manar belum meluluskan peserta didiknya karena baru sampai kelas V.
-              Di dalam kampus ini kita mendapatkan suasana tenang dan tentram karena jauh dari kebisingan dan hiruk pikuk baik kendaraan maupun kegiatan-kegiatan lain, sehingga perguruan Al-Manar merupakan tempat yang tepat untuk melakukan belajar mengajar.
-              Tahun 2008 Sekolah Al-Manar menjadi juara umum pada kejuaraan NAsyid dan pecan seni Islam se-Bogor Raya.
-            </p>
-          </div>
+              Yayasan ngali aksara Al-Manar sesuai dengan namanya secara harfiah adalah “tempat memantul cahaya” karena diniatkan agar dapat memantulkan sinar Islam bagi kehidupan umat Islam di Indonesia. Diresmikan oleh Menteri Agama RI pada tanggal 26 Oktober 1999 bertepatan dengan 16 Rajab 1429 H. Yayasan ngali aksara Al-Manar berlokasi di Desa Cibeuteung Udik Kecamatan Ciseeng Kabupaten Bogor, memiliki luas lahan 3 Ha.
+              Sejak berdiri tahun 1999 Sampai sekarang memiliki jenis dan jenjang pendidikan yang terdiri dari TK Islam, Madrasah Ibtidaiyah (MI), Madrasah Tsanawiyah (MTs), Madrasah Aliyah (MA) dan Sekolah Menengah Kejuruan (SMK) jurusan Marketing/Penjualan. MTs dan MA sampai tahun 2024 sudah meluluskan peserta didiknya 23 (Dua Puluh Tiga) angkatan dengan angka kelulusan 100%. Begitu juga SMK yang sejak berdiri tahun 2000 mempunyai angka kelulusan 100%. Begitupun TK dan MI yang sudah melulusan siswa dengan angka kelulusan 100%.
+              Di dalam Yayasan ini kita mendapatkan suasana tenang dan tentram karena jauh dari kebisingan dan hiruk pikuk baik kendaraan maupun kegiatan-kegiatan lain, sehingga Yayasan ngali aksara Al-Manar merupakan tempat yang tepat untuk melakukan belajar mengajar.
+              Tahun 2024 MA Al-Manar menjadi juara 2 tingkat MA sekabupaten Bogor dalam lomba Cerdas Cermat, Juara 4 lomba Futsal se JABODETABEK tahun 2023 dan juara bina 1 paskibra tingkat Jawa Barat dan Banten tahun 2022  </div>
         </div>
       
         </div>
@@ -160,7 +180,7 @@
     </div>
     <!--bagian Akhir sejarah-->
 
-     <footer class="pt-20 bg-gray-800 pb-4">
+    <footer class="pt-20 bg-gray-800 pb-4">
       <div class="container mx-auto">
         <!-- Bagian alamat -->
         <div class="flex flex-wrap">
@@ -285,8 +305,8 @@
       });
     </script>
 
-    
 <!-- script burer navbar-->
 <script src="../dist/main.js"></script>
+
   </body>
 </html>
